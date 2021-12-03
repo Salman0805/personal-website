@@ -1,46 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <title>Create Card</title>
+<html></html>
+<head>
+    <title>Create Navbar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-    <body>
-        <center>
-            <div style="
-              width: 350px;
-              margin-top: 150px;
-              border-radius: 16px;
-              border: 1px solid gray;
-              box-shadow: 0px 0px 20px grey;
-              padding: 10px;
-            ">
-                <img src="image/Pp zoom.jpg" style="
-                width: 100%; 
-                border-radius: 16px;">
-                <h1 style="text-align: left; color: rgb(rgb(9, 239, 255)">Salman Al Farisyi</h1>
-                <p style="text-align: left; color:rgb(13, 14, 14)">
-                    I'm a Web Developer with a high curoisity in programming and i like milk</p>
-                <table border="1" style="
-                width: 100%; 
-                border: 2px solid grey;
-                border-radius: 16px;
-                border-collapse: collapse;">
-                    <thead>
-                     <tr>
-                       <th style="padding: 5px;">Project</th>
-                       <th style="padding: 5px;">Year</th>
-                     </tr>  
-                    </thead>
-                    <tbody>
-                      <tr>
-                          <td style="padding: 5px; text-align: center;">Website Anime</td>
-                          <td style="padding: 5px; text-align: center;">2021</td>
-                      </tr>
-                      <tr>
-                          <td style="padding: 5px; text-align: center;">Fanspage Joestar</td>
-                          <td style="padding: 5px; text-align: center;">2020</td>
-                      </tr>
-                    </tbody>
-                </table>
-                </div>
-    </body>
+<body>
+    <nav class="navbar">
+        <div class="left-side">
+          <img src="images/logo.png">
+        <ul>
+            <li><a href="" id="link1">Home</a></li>
+            <li><a href="">Blog</a></li>
+        </ul>   
+        </div>
+        <div class="right-side">
+            <a href="">Contact Me</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left">
+            <div class="card">
+      <img src="images/Pp zoom.jpg" class="card-img">
+      <h1 class="card-name" f>Salman Al Farisyi</h1>
+      <p class="card-description">
+          I'm a Web Developer with a high curoisity in programming and i like milk</p>
+      <table border="1" style="
+      width: 100%; 
+      border: 2px solid grey;
+      border-radius: 16px;
+      border-collapse: collapse;">
+          <thead>
+           <tr>
+             <th style="padding: 5px;">Project</th>
+             <th style="padding: 5px;">Year</th>
+           </tr>  
+          </thead>
+          <tbody>
+            <tr>
+                <td style="padding: 5px; text-align: center;">Website Anime</td>
+                <td style="padding: 5px; text-align: center;">2021</td>
+            </tr>
+            <tr>
+                <td style="padding: 5px; text-align: center;">Fanspage Joestar</td>
+                <td style="padding: 5px; text-align: center;">2020</td>
+            </tr>
+          </tbody>
+      </table>
+      </div>
+      </div>
+    <div class="right">
+        <div class="personal-section">
+            <h1>What I do</h1>
+            <p>Saya adalah seorang yang luar biasa</p>
+        </div>
+        <div class="ability">
+            <div>
+                <img src="images/js.png">
+                <h1>Front-end Developer</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor velit at elit porta sollicitudin. Phasellus ultrices eget mauris ut interdum. Duis ac nisi finibus, elementum metus sit amet, ultricies enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id vehicula mauris. Praesent dapibus ante sapien, eget consequat odio porttitor quis. Nunc vel erat in quam vulputate consequat.</p>
+            </div>
+            <div>
+                <img src="images/git.png">
+                <h1>Version Control</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor velit at elit porta sollicitudin. Phasellus ultrices eget mauris ut interdum. Duis ac nisi finibus, elementum metus sit amet, ultricies enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id vehicula mauris. Praesent dapibus ante sapien, eget consequat odio porttitor quis. Nunc vel erat in quam vulputate consequat.</p>
+            </div>
+            <div style="margin-right: 0px;">
+                <img src="images/deploy.png">
+                <h1>Sleeping on the moon</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis auctor velit at elit porta sollicitudin. Phasellus ultrices eget mauris ut interdum. Duis ac nisi finibus, elementum metus sit amet, ultricies enim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id vehicula mauris. Praesent dapibus ante sapien, eget consequat odio porttitor quis. Nunc vel erat in quam vulputate consequat.</p>
+              </div>
+            </div>
+            <div class="social-media">
+                <h1>Found Me</h1>
+                <a href="https://facebook.com"><img src="images/facebook.png"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png"></a>
+                <a href="https://www.instagram.com/ready_gooo5/"><img src="images/instagram.png"></a>
+                <a href="https://mail.google.com"><img src="images/mail.png"></a>
+                <a href="https://whatsapp.com"><img src="images/whatsapp.png"></a>
+            </div>
+          </div>
+       </div>
+
+</body>
 </html>
